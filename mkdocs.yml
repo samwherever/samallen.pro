@@ -6,6 +6,9 @@ theme:
     features:
       - navigation.tabs
       - toc.integrate
+    icon:
+      logo: material/file-code
+
 plugins:
    - glightbox:
       slide_effect: none
