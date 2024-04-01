@@ -8,7 +8,7 @@ theme:
       - toc.integrate
     icon:
       logo: material/file-code
-      favicon: docs/assets/favicon.ico
+    favicon: docs/favicon.ico
 
 plugins:
    - glightbox:
