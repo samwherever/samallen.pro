@@ -11,15 +11,15 @@ theme:
     favicon: docs/favicon.png
 
 plugins:
-   - glightbox:
-      slide_effect: none
-      zoomable: false
-      auto_caption: true
-      caption_position: top
-      width: 10%
-      touchNavigation: false
-      effect: fade
-      draggable: false
+   # - glightbox:
+   #  slide_effect: none
+   #    zoomable: false
+   #    auto_caption: false
+   #    caption_position: top
+   #    width: 10%
+   #    touchNavigation: false
+   #    effect: fade
+   #    draggable: false
 
 #This hides the TOC, but it can be re-config'd to allow for header sizes in the TOC
 markdown_extensions:
