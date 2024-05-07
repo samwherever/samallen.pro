@@ -2,7 +2,7 @@
 title: Product Documentation
 ---
 
-![An icon description guide](../assets/icon_guide.png)
+![An icon description guide](../assets/icon_guide_new.png)
 
 ![A description of Smart Data Leak Prevention functions.](../assets/data_leak_prevention.png)
 
