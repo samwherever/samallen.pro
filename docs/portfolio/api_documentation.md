@@ -12,4 +12,4 @@ With <a href="http://readme.com" target="_blank">Readme</a>, I created a CI/CD-b
 
 This is a sample from a demo PDF that was used by the marketing and implementation teams to help new customers get up and running.
 
-![A sample of a JSON API response documentation.](../assets/pdf-syntax.png)
+![A sample of a JSON API response documentation.](../assets/pdf-syntax-new.png)
