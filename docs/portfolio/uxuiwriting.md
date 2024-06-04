@@ -2,6 +2,6 @@
 title: UX/UI Writing
 ---
 
-At Sertifi, I also regularly handled UX writing duties to help make the product easier to use and understand.
+These are examples of UI/UX messages I created while working as a technical writer at Sertifi.
 
 ![A sample whoops error page](../assets/whoops_cropped.png)
