@@ -6,9 +6,6 @@ theme:
     features:
       - navigation.tabs
       - toc.integrate
-    icon:
-      logo: material/file-code
-    favicon: docs/favicon.png
 
 plugins:
    # - glightbox:
