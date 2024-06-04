@@ -26,5 +26,7 @@ markdown_extensions:
   - toc:
       toc_depth: 4
 
+extra_css:
+  - stylesheets/extra.css 
 
 copyright: Copyright &copy; 2024 Sam Allen
