@@ -2,7 +2,7 @@
 title: Video
 ---
 
-As part of rebuilding [Sertif's support center](support_sites.md), I also completely rebuilt how support videos were created, produced, and published. These videos were written, narrated, designed, animated, and edited by me.
+As part of rebuilding [Sertifi's support center](support_sites.md), I also completely rebuilt how support videos were created, produced, and published. These videos were written, narrated, designed, animated, and edited by me.
 
 Features of note:
 
