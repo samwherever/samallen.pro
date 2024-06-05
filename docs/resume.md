@@ -2,17 +2,12 @@
 title: Resume
 ---
 
-
 ## Technical Skills
-* HTML
-* CSS
-* JavaScript (Vanilla, React)
-* JSON
-* YAML
-* Markdown
-* Git and GitHub
+* HTML, CSS, JavaScript JavaScript (Vanilla, React)
+* JSON, YAML, Markdown
+* Git/GitHub
 * Bash, Z Shell (Zsh)
-* REST APIs and Swagger
+* SOAP, REST APIs
 * Static site generators: MkDocs, Jekyll, Markdoc, Hugo
 * Adobe Photoshop, Adobe Premiere Pro, Adobe After Effects, Adobe InDesign
 * Video Editing, Motion Graphics
