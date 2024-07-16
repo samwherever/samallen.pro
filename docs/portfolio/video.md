@@ -20,3 +20,7 @@ For accessibility and usability purposes, I also went through each caption to co
 
 ![An example of video captioning](../assets/captioning.png)
 
+To further improve accessibility, I began writing French subtitles for the videos as well.
+
+![French subtitle example](../assets/french-captions.png)
+
