@@ -8,6 +8,8 @@ theme:
       - toc.integrate
     favicon: favicon.png
 
+    #Testing my deploy setup
+
 plugins:
    # - glightbox:
    #  slide_effect: none
