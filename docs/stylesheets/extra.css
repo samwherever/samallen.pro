@@ -16,4 +16,6 @@ body > header > nav > div.md-header__title > div > div:nth-child(1) > span {
 /* Adds borders to every image on the site. */
 img {
     border: 1px solid #929292;
+    max-width: 75%;
+    width: 75%;
 }
