@@ -7,10 +7,11 @@ theme:
       - navigation.tabs
       - toc.integrate
     favicon: favicon.png
-    extra:
-      analytics:
-        provider: google
-        property: G-YVNHWV1LG8
+
+extra:
+  analytics:
+    provider: google
+    property: G-YVNHWV1LG8
 
 
 plugins:
