@@ -4,7 +4,7 @@ title: API Documentation
 
 #### Developer Center
 
-With <a href="http://readme.com" target="_blank">Readme</a>, I created a CI/CD-based API documentation site that lets developers test REST calls in their production environments, as well as writing sample API workflows.
+With <a href="http://readme.com" target="_blank">Readme</a>, I created an API documentation site that lets developers test REST calls in their production environments, as well as writing sample API workflows.
 
 ![The Sertifi REST API Readme](../assets/readme.png)
 
