@@ -7,6 +7,8 @@ theme:
       - navigation.tabs
       - toc.integrate
     favicon: favicon.png
+    icon:
+      logo: material/application-edit
 
 extra:
   analytics:
@@ -29,7 +31,6 @@ plugins:
 markdown_extensions:
   - toc:
       toc_depth: 4
-
 extra_css:
   - stylesheets/extra.css 
 
