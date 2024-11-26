@@ -1,7 +1,6 @@
 ---
 title: Resume
 ---
-<!--deployment test 3-->
 ## Technical Skills
 * HTML, CSS, JavaScript (Vanilla, React)
 * JSON, YAML, Markdown
