@@ -2,7 +2,7 @@
 title: Product Documentation
 ---
 
-These are examples from documentation describing functions and features of various SaaS products.
+<!--These are examples from documentation describing functions and features of various SaaS products.-->
 
 ![An icon description guide](../assets/icon_guide_new.png)
 
