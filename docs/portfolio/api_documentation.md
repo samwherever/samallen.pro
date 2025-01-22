@@ -2,9 +2,9 @@
 title: API Documentation
 ---
 
-#### API PDF Guide
+#### API Demo Guide
 
-![A sample of a JSON API response documentation.](../assets/api-guide-new.jpg)
+![A sample of a JSON API response documentation.](../assets/2025-sample.jpg)
 
 #### Developer Center
 
