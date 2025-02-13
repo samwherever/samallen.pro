@@ -1,6 +1,8 @@
 ---
-title: Coding Standards
+title: Developer Resources
 ---
+
+#### Coding Standards
 
 These are samples of internal coding standards that I edited at Sertifi.
 
