@@ -6,6 +6,8 @@ theme:
     features:
       - navigation.tabs
       - toc.integrate
+      - content.code.annotate
+      - content.code.select
     favicon: favicon.png
     icon:
       logo: material/application-edit
@@ -29,9 +31,21 @@ plugins:
 
 #This hides the TOC, but it can be re-config'd to allow for header sizes in the TOC
 markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.keys
+  - pymdownx.details
+  - admonition
   - toc:
       toc_depth: 4
+
 extra_css:
-  - stylesheets/extra.css 
+  - stylesheets/extra.css
+
 
 copyright: Copyright &copy; 2025 Sam Allen
