@@ -79,3 +79,22 @@ To accomplish the same thing in JSON, all you would need to write is:
  ]
 ```
 
+**HTTP Response Code Reference**
+
+!!!tip
+
+    This table is a general overview of what various status codes signify. The exact meaning of a status code will depend on the call’s method (GET, PUT, POST, DELETE) and what it was requesting or attempting to change. For example, a successful call using the `GET /v1/folders/{folderId}` method would return the HTTP response code 200, with a link to the folder that was requested.
+
+
+
+|Code Number|Code Response|Definition|Notes & Fixes|
+|-----------|-------------|----------|-------------|
+| 200 | OK | Successful request | |
+| 201| Created | Successful request. A new resource has been created. |
+| 204 | N/A | The server has successfully fulfilled the request, but there is no content to send in the response. | Example: You ran a DELETE call, in which there is no data to return. The server returns the 204 code to indicate a successful operation. |
+| 400 | Bad Request | The API Server is refusing the request because of one or more errors in syntax, or missing information. | Ensure the request contains no syntax errors or spelling errors, as well asconfirming that the request type (GET, POST, PUT, DELETE) contains the required parameters. |
+| 401 | Unauthorized | The API server understood the request, meaning that the call was properly entered, but the server will not fulfill the request unless the user can prove they are authorized. | Ensure the customer is using the correct API access code. The 401 error code signifies that authentication is still possible, e.g. that they will eventually be able to make the call after fixing the authentication problem. |
+| 403 | Forbidden | The API server understood the request, meaning that the call was properly entered, but the user is prohibited from making API calls. | The 403 error code signifies that authentication is not, and never will be possible with the customer's current API key. |
+| 409 | Conflict | There is a conflict between the resource currently available on the server and the resource that the user is attempting to upload.| This usually occurs during a PUT call as the user attempts to replace or update a file. |
+| 500 | Internal Server Error | General error code | Attempt the API call once more |
+| 504 | Gateway Timeout | The server “timed out”, or took too long to respond to the request. | Try the request again in a few minutes. If this error persists, ensure the infrastructure team is aware. |

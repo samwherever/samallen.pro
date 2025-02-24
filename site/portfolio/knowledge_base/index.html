@@ -624,6 +624,77 @@ example, to input data for a group of four people using XML, you'd have to write
 </span><span id="__span-1-17"><a id="__codelineno-1-17" name="__codelineno-1-17" href="#__codelineno-1-17"></a><span class="w">    </span><span class="p">}</span>
 </span><span id="__span-1-18"><a id="__codelineno-1-18" name="__codelineno-1-18" href="#__codelineno-1-18"></a><span class="w"> </span><span class="p">]</span>
 </span></code></pre></div>
+<p><strong>HTTP Response Code Reference</strong></p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>This table is a general overview of what various status codes signify. The exact meaning of a status code will depend on the call’s method (GET, PUT, POST, DELETE) and what it was requesting or attempting to change. For example, a successful call using the <code>GET /v1/folders/{folderId}</code> method would return the HTTP response code 200, with a link to the folder that was requested.</p>
+</div>
+<table>
+<thead>
+<tr>
+<th>Code Number</th>
+<th>Code Response</th>
+<th>Definition</th>
+<th>Notes &amp; Fixes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>200</td>
+<td>OK</td>
+<td>Successful request</td>
+<td></td>
+</tr>
+<tr>
+<td>201</td>
+<td>Created</td>
+<td>Successful request. A new resource has been created.</td>
+<td></td>
+</tr>
+<tr>
+<td>204</td>
+<td>N/A</td>
+<td>The server has successfully fulfilled the request, but there is no content to send in the response.</td>
+<td>Example: You ran a DELETE call, in which there is no data to return. The server returns the 204 code to indicate a successful operation.</td>
+</tr>
+<tr>
+<td>400</td>
+<td>Bad Request</td>
+<td>The API Server is refusing the request because of one or more errors in syntax, or missing information.</td>
+<td>Ensure the request contains no syntax errors or spelling errors, as well asconfirming that the request type (GET, POST, PUT, DELETE) contains the required parameters.</td>
+</tr>
+<tr>
+<td>401</td>
+<td>Unauthorized</td>
+<td>The API server understood the request, meaning that the call was properly entered, but the server will not fulfill the request unless the user can prove they are authorized.</td>
+<td>Ensure the customer is using the correct API access code. The 401 error code signifies that authentication is still possible, e.g. that they will eventually be able to make the call after fixing the authentication problem.</td>
+</tr>
+<tr>
+<td>403</td>
+<td>Forbidden</td>
+<td>The API server understood the request, meaning that the call was properly entered, but the user is prohibited from making API calls.</td>
+<td>The 403 error code signifies that authentication is not, and never will be possible with the customer's current API key.</td>
+</tr>
+<tr>
+<td>409</td>
+<td>Conflict</td>
+<td>There is a conflict between the resource currently available on the server and the resource that the user is attempting to upload.</td>
+<td>This usually occurs during a PUT call as the user attempts to replace or update a file.</td>
+</tr>
+<tr>
+<td>500</td>
+<td>Internal Server Error</td>
+<td>General error code</td>
+<td>Attempt the API call once more</td>
+</tr>
+<tr>
+<td>504</td>
+<td>Gateway Timeout</td>
+<td>The server “timed out”, or took too long to respond to the request.</td>
+<td>Try the request again in a few minutes. If this error persists, ensure the infrastructure team is aware.</td>
+</tr>
+</tbody>
+</table>
 
 
   
