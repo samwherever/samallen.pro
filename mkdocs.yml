@@ -19,7 +19,7 @@ extra:
 
 
 plugins:
-   # - glightbox:
+    - glightbox:
    #  slide_effect: none
    #    zoomable: false
    #    auto_caption: false
