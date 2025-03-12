@@ -23,7 +23,7 @@ This is a guide to Sertifi coding standards. Standards ensure the code will look
 | Constants | All capital letters, separated by underscores. Never use spaces. | `NUMBER_OF_CATS`|
 
 !!! tip
-    Avoid using type identification in variable and function identifiers, like `string stringName`, `bool bResult`, and so on.
+    Avoid using type identification in variable identifiers, like `string stringName`, `bool bResult`, and so on.
 
 
 
