@@ -46,4 +46,4 @@ When using `.join`, use a complete word for the lambda variable name.
 
 Project names should start with Sertifi, e.g. Sertifi.*nameofProject*. When necessary, add the layer to the name after Sertifi, e.g. Sertifi.*BL.Core* for core business logic.
 
-Unit test projects should use the format of Sertifi.*nameOfProjectBeingTest*.Test
+Unit test projects should use the format of Sertifi.*nameOfProjectBeingTested*.Test
