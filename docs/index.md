@@ -7,7 +7,7 @@ hide:
 
 # Hello there.
 
-### I'm a technical writer in Chicago, IL. Take a look at my [resumé](resume.md), view my [portfolio](portfolio/api_documentation.md/), or [send me a message.](mailto:samallentechnicalwriter@proton.me)
+### I'm a technical writer in Chicago, IL. Take a look at my [resume](resume.md), view my [portfolio](portfolio/api_documentation.md/), or [send me a message.](mailto:samallentechnicalwriter@proton.me)
 
 
 You can also find me on [GitHub](https://github.com/samwherever).
