@@ -59,24 +59,26 @@ example, to input data for a group of four people using XML, you'd have to write
 To accomplish the same thing in JSON, all you would need to write is:
 
 ```json
-"band_members":[
-     {
-      "name": "John",
-      "instrument":"guitar"
-     },
-     {
-      "name": "Paul",
-      "instrument":"bass guitar"
-    },
-    {
-      "name": "George",
-      "instrument":"guitar"
-    },
-    {
-     "name": "Ringo",
-     "instrument":"drums"
-    }
- ]
+{
+    "band_members": [
+        {
+            "name": "John",
+            "instrument": "guitar"
+        },
+        {
+            "name": "Paul",
+            "instrument": "bass guitar"
+        },
+        {
+            "name": "George",
+            "instrument": "guitar"
+        },
+        {
+            "name": "Ringo",
+            "instrument": "drums"
+        }
+    ]
+}
 ```
 
 **HTTP Response Code Reference**
