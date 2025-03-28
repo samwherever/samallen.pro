@@ -8,7 +8,7 @@ theme:
       - toc.integrate
       - content.code.annotate
       - content.code.select
-    favicon: favicon.png
+    favicon: 2025-favcon.png
     icon:
       logo: material/application-edit
 
