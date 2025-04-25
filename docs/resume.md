@@ -7,6 +7,7 @@ title: Resume
 * HTML, CSS, JavaScript
 * JSON, YAML, Markdown
 * [APIs and API Documentation](portfolio/api_documentation.md)
+* Docker
 * Static site generators: MkDocs, Jekyll, Markdoc, Hugo
 * Adobe Photoshop, Adobe Premiere Pro, Adobe After Effects, Adobe InDesign
 * Video Editing, Motion Graphics
