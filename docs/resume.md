@@ -14,8 +14,8 @@ title: Resume
 
 ## Professional Experience
 
-**Technical Writer and Video Producer** - Sertifi <br>
-March 2020 - Present <br> 
+**Technical Writer and Video Producer** - Sertifi by Flywire (previously Sertifi) <br>
+March 2020 - May 2025 <br> 
 Chicago, IL
 
 **Technical Writer (Contract)** - CodeLathe <br>
