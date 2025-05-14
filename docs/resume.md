@@ -14,6 +14,10 @@ title: Resume
 
 ## Professional Experience
 
+**Senior Technical Writer** - HERE Technologies <br>
+May 2025 - Present <br> 
+Chicago, IL
+
 **Technical Writer and Video Producer** - Sertifi by Flywire (previously Sertifi) <br>
 March 2020 - May 2025 <br> 
 Chicago, IL
