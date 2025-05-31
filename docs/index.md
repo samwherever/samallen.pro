@@ -12,8 +12,6 @@ hide:
 
 You can also find me on [GitHub](https://github.com/samwherever).
 
-<!--![Marina City](marina-city.jpg)-->
-
 
 
 
