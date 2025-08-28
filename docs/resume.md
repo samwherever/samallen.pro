@@ -2,7 +2,7 @@
 title: Resume
 ---
 ## Technical Skills
-* Git/GitHub
+* Git/GitHub/GitLab
 * Bash, Z Shell (Zsh)
 * HTML, CSS, JavaScript, Python
 * JSON, YAML, Markdown
