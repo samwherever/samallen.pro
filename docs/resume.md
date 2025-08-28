@@ -4,7 +4,7 @@ title: Resume
 ## Technical Skills
 * Git/GitHub
 * Bash, Z Shell (Zsh)
-* HTML, CSS, JavaScript
+* HTML, CSS, JavaScript, Python
 * JSON, YAML, Markdown
 * [APIs and API Documentation](portfolio/api_documentation.md)
 * Docker
